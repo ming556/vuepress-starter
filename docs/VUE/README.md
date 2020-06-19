@@ -1,6 +1,6 @@
 ### VUE 中你必须懂的东西
 # ES6
--  [`在vue中关于es6的使用`](/docs/VUE/ES6/vue-es6/)
+-  [`在vue中关于es6的使用`](/docs/VUE/ES6/vue-es6)
 -  [`十个高频的关于es6的问题`](/docs/VUE/ES6/es6-interview/)
 # Vuex
 -  [`vuex的生命周期`](/docs/VUE/vuex/vuex/)
