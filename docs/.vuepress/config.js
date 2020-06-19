@@ -27,8 +27,13 @@ module.exports = {
               {
                 title: 'ES6',
                 children: [
+<<<<<<< HEAD
                   { title: '在vue中关于es6的使用', path:'ES6/vue-es6'},
                   { title: '高频的关于es6的面试题', path:'ES6/es6-interview'}
+=======
+                  { title: '在vue中关于es6的使用', path:'ES6/vue-es6/'},
+                  { title: '高频的关于es6的面试题', path:'ES6/es6-interview/'}
+>>>>>>> 59b49212643bb98873051de60f380e8bc3462445
                 ]
               },
               {
