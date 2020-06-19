@@ -6,7 +6,7 @@ module.exports = {
       //增加manifest.json
       ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
-    base:'/',
+
     themeConfig:{
         nav: [{text: "主页", link: "/"},
             { text: "node", link: "/node/" },
@@ -35,8 +35,7 @@ module.exports = {
                 title: 'vue的生命周期以及vuex',
                 children: [
                   { title: 'vuex的生命周期', path:'vuex/vuex'},
-                  { title: '十个高频的关于vuex的问题', path:'vuex/vuex-interview'},
-                  { title: 'vuex与vue组件通讯的区别', path:'vuex/vuex-emit'}
+                  { title: '一些高频的关于vuex的问题', path:'vuex/vuex-interview'},
                 ]
               },
               {
@@ -46,12 +45,9 @@ module.exports = {
                   { title: 'vue-router中路由镶嵌', path:'vue-router/vue-children'}
                 ]
               },
-              {
-                title: 'VUE中组件的通讯',
-                children: [
-                  { title: 'Vue组件之间的八种通讯', path:'vue-emit'},
-                ]
-              },
+            ],
+            "/interview/":[
+              ["", "目录"],
             ],
           }
         // sidebar: 'auto',
@@ -75,9 +71,12 @@ module.exports = {
               options: {
                 el: '#valine-vuepress-comment',
                 appId: 'GWPbOewGubpBy5AwaEdjJFyl-gzGzoHsz',
-                appKey: 'ByHseupjcxjCPGH0HaKoRPff'
+                appKey: 'ByHseupjcxjCPGH0HaKoRPff',
+                avatar:'wavatar',
+                emojiCDN: 'https://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/',
               }
             }
           ]
       ]
+      
 }

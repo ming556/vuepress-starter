@@ -1,8 +1,8 @@
 ---
 home: true
-
+heroImage: /home.jpg
 actionText: 开始阅读 →
-actionLink: /node/
+actionLink: /VUE/
 features:
 - title: Every day
   details: 记录每一天的进步, 一分耕耘，一分收获.

@@ -16,6 +16,10 @@
 <script>
 export default {
 	name:'fixed',
+	data() {
+		return {
+		}
+	},
 	mounted(){
 		var userAgentInfo = navigator.userAgent;
     	var Agents = ["Android", "iPhone",
