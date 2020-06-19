@@ -6,6 +6,7 @@ module.exports = {
       //增加manifest.json
       ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
+    base:'/'
     themeConfig:{
         nav: [{text: "主页", link: "/docs/"},
             { text: "node", link: "/docs/node/" },
