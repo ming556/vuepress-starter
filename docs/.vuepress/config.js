@@ -6,47 +6,47 @@ module.exports = {
       //增加manifest.json
       ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
-    base: '/vuepress-starter/',
+
     themeConfig:{
-        nav: [{text: "主页", link: "/docs/"},
-            { text: "node", link: "/docs/node/" },
+        nav: [{text: "主页", link: "/"},
+            { text: "node", link: "/node/" },
             { text: "前端", 
                 items:[
-                    { text: "html", link:"/docs/web/html/"},
-                    { text: "css", link:"/docs/web/css/"},
-                    { text: "js", link:"/docs/web/js/"},
+                    { text: "html", link:"/web/html/"},
+                    { text: "css", link:"/web/css/"},
+                    { text: "js", link:"/web/js/"},
                 ]
             },
-            { text: "VUE", link: "/docs/VUE/" },
-            { text: "面试问题", link: "/docs/interview/" },
+            { text: "VUE", link: "/VUE/" },
+            { text: "面试问题", link: "/interview/" },
             { text: "GitHub", link: "https://github.com/ming556/vuepress-starter" }
           ],
           sidebar:{
-            "/docs/VUE/":[
+            "/VUE/":[
               ["", "目录"],
               {
                 title: 'ES6',
                 children: [
-                  { title: '在vue中关于es6的使用', path:'docs/ES6/vue-es6/'},
-                  { title: '高频的关于es6的面试题', path:'ES6/es6-interview/'}
+                  { title: '在vue中关于es6的使用', path:'ES6/vue-es6'},
+                  { title: '高频的关于es6的面试题', path:'ES6/es6-interview'}
                 ]
               },
               {
                 title: 'vue的生命周期以及vuex',
                 children: [
-                  { title: 'vuex的生命周期', path:'vuex/vuex/'},
-                  { title: '一些高频的关于vuex的问题', path:'vuex/vuex-interview/'},
+                  { title: 'vuex的生命周期', path:'vuex/vuex'},
+                  { title: '一些高频的关于vuex的问题', path:'vuex/vuex-interview'},
                 ]
               },
               {
                 title: 'VUE中vue-router的使用',
                 children: [
-                  { title: 'vue-router路由守卫', path:'vue-router/vue-router/'},
-                  { title: 'vue-router中路由镶嵌', path:'vue-router/vue-children/'}
+                  { title: 'vue-router路由守卫', path:'vue-router/vue-router'},
+                  { title: 'vue-router中路由镶嵌', path:'vue-router/vue-children'}
                 ]
               },
             ],
-            "/docs/interview/":[
+            "/interview/":[
               ["", "目录"],
             ],
           }
