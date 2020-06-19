@@ -18,7 +18,7 @@ features:
 ### 文章在线阅读:
 
 ### 博客技术栈目录
-* [ `JavaScript必知知识点`](/docs/web/js/)
+* [ `JavaScript必知知识点`](/web/js/)
 * [ `node基础了解`](/docs/node/)
 * [ `HTML5新增特性`](/docs/web/html/)
 * [ `CSS3新增特性`](/docs/web/css/)
