@@ -6,7 +6,6 @@ module.exports = {
       //增加manifest.json
       ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
-    base: '/vuepress-starter/',
     themeConfig:{
         nav: [{text: "主页", link: "/docs/"},
             { text: "node", link: "/docs/node/" },
@@ -27,7 +26,7 @@ module.exports = {
               {
                 title: 'ES6',
                 children: [
-                  { title: '在vue中关于es6的使用', path:'docs/ES6/vue-es6/'},
+                  { title: '在vue中关于es6的使用', path:'ES6/vue-es6/'},
                   { title: '高频的关于es6的面试题', path:'ES6/es6-interview/'}
                 ]
               },
