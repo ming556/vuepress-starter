@@ -27,22 +27,22 @@ module.exports = {
               {
                 title: 'ES6',
                 children: [
-                  { title: '在vue中关于es6的使用', path:'docs/ES6/vue-es6'},
-                  { title: '高频的关于es6的面试题', path:'ES6/es6-interview'}
+                  { title: '在vue中关于es6的使用', path:'docs/ES6/vue-es6/'},
+                  { title: '高频的关于es6的面试题', path:'ES6/es6-interview/'}
                 ]
               },
               {
                 title: 'vue的生命周期以及vuex',
                 children: [
-                  { title: 'vuex的生命周期', path:'vuex/vuex'},
-                  { title: '一些高频的关于vuex的问题', path:'vuex/vuex-interview'},
+                  { title: 'vuex的生命周期', path:'vuex/vuex/'},
+                  { title: '一些高频的关于vuex的问题', path:'vuex/vuex-interview/'},
                 ]
               },
               {
                 title: 'VUE中vue-router的使用',
                 children: [
-                  { title: 'vue-router路由守卫', path:'vue-router/vue-router'},
-                  { title: 'vue-router中路由镶嵌', path:'vue-router/vue-children'}
+                  { title: 'vue-router路由守卫', path:'vue-router/vue-router/'},
+                  { title: 'vue-router中路由镶嵌', path:'vue-router/vue-children/'}
                 ]
               },
             ],
