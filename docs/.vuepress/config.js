@@ -8,21 +8,21 @@ module.exports = {
     ],
     base: '/docs/',
     themeConfig:{
-        nav: [{text: "主页", link: "/"},
-            { text: "node", link: "/node/" },
+        nav: [{text: "主页", link: "/docs/"},
+            { text: "node", link: "/docs/node/" },
             { text: "前端", 
                 items:[
-                    { text: "html", link:"/web/html/"},
-                    { text: "css", link:"/web/css/"},
-                    { text: "js", link:"/web/js/"},
+                    { text: "html", link:"/docs/web/html/"},
+                    { text: "css", link:"/docs/web/css/"},
+                    { text: "js", link:"/docs/web/js/"},
                 ]
             },
-            { text: "VUE", link: "/VUE/" },
-            { text: "面试问题", link: "/interview/" },
+            { text: "VUE", link: "/docs/VUE/" },
+            { text: "面试问题", link: "/docs/interview/" },
             { text: "GitHub", link: "https://github.com/ming556/vuepress-starter" }
           ],
           sidebar:{
-            "/VUE/":[
+            "/docs/VUE/":[
               ["", "目录"],
               {
                 title: 'ES6',
@@ -46,7 +46,7 @@ module.exports = {
                 ]
               },
             ],
-            "/interview/":[
+            "/docs/interview/":[
               ["", "目录"],
             ],
           }

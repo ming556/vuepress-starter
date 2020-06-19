@@ -11,11 +11,11 @@
 
 ### 博客技术栈目录
 * [ `JavaScript必知知识点`](/docs/web/js/)
-* [ `node基础了解`](/node/)
-* [ `HTML5新增特性`](/web/html/)
-* [ `CSS3新增特性`](/web/css/)
+* [ `node基础了解`](/docs//node/)
+* [ `HTML5新增特性`](/docs//web/html/)
+* [ `CSS3新增特性`](/docs//web/css/)
 * [ `Vue必须知道的知识点`](/docs/VUE/)
-* [ `面试汇总`](/interview/)
+* [ `面试汇总`](/docs//interview/)
 
 ### 参与贡献
 
