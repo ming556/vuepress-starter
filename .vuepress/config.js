@@ -6,7 +6,10 @@ module.exports = {
       //增加manifest.json
       ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
+<<<<<<< HEAD
     base:'/vuepress-starter/',
+=======
+>>>>>>> 15d9dc3c... 2020-6-24
     themeConfig:{
         nav: [{text: "主页", link: "/"},
             { text: "node", link: "/node/" },
@@ -48,6 +51,28 @@ module.exports = {
             ],
             "/interview/":[
               ["", "目录"],
+            ],
+            "/web/html/":[
+              ["", "目录"],
+              {
+                title: 'html',
+                path:'/web/html/html'
+              },
+              {
+                title: 'html5',
+                path:'/web/html/html5'
+              },
+            ],
+            "/web/css/":[
+              ["", "目录"],
+              {
+                title: 'html',
+                path:'/web/css/css'
+              },
+              {
+                title: 'html5',
+                path:'/web/css/css3'
+              },
             ],
           }
         // sidebar: 'auto',
